@@ -1,0 +1,64 @@
+<header id="masthead" class="site-header" role="banner" style="">
+
+		<div class="col-full">		<a class="skip-link screen-reader-text" href="#site-navigation">Ugrás a navigációhoz</a>
+		<a class="skip-link screen-reader-text" href="#content">Kilépés a tartalomba</a>
+				<div class="site-branding">
+			<div class="beta site-title"><a href="https://woocommerceshop.hu/" rel="home">My Blog</a></div><p class="site-description">My WordPress Blog</p>		</div>
+					<div class="site-search">
+				<div class="widget woocommerce widget_product_search"><form role="search" method="get" class="woocommerce-product-search" action="https://woocommerceshop.hu/">
+	<label class="screen-reader-text" for="woocommerce-product-search-field-0">Keresés a következőre:</label>
+	<input type="search" id="woocommerce-product-search-field-0" class="search-field" placeholder="Termékek keresése…" value="" name="s">
+	<button type="submit" value="Keresés" class="">Keresés</button>
+	<input type="hidden" name="post_type" value="product">
+</form>
+</div>			</div>
+			</div><div class="storefront-primary-navigation"><div class="col-full">		<nav id="site-navigation" class="main-navigation" role="navigation" aria-label="Elsődleges navigáció">
+		<button id="site-navigation-menu-toggle" class="menu-toggle" aria-controls="site-navigation" aria-expanded="false"><span>Menü</span></button>
+			<div class="menu"><ul aria-expanded="false" class="nav-menu">
+<li><a href="https://woocommerceshop.hu/">Kezdőlap</a></li><li class="page_item page-item-17"><a href="https://woocommerceshop.hu/1-2/">1</a></li>
+<li class="page_item page-item-58 "><a href="https://woocommerceshop.hu/blog/">Blog</a></li>
+<li class="page_item page-item-10"><a href="https://woocommerceshop.hu/fiokom/">Fiókom</a></li>
+<li class="page_item page-item-8"><a href="https://woocommerceshop.hu/kosar/">Kosár</a></li>
+<li class="page_item page-item-9"><a href="https://woocommerceshop.hu/penztar/">Pénztár</a></li>
+<li class="page_item page-item-2"><a href="https://woocommerceshop.hu/sample-page/">Sample Page</a></li>
+<li class="page_item page-item-7 current_page_item"><a href="https://woocommerceshop.hu/uzlet/">Shop</a></li>
+</ul></div>
+<div class="menu"><ul>
+<li><a href="https://woocommerceshop.hu/">Kezdőlap</a></li><li class="page_item page-item-17"><a href="https://woocommerceshop.hu/1-2/">1</a></li>
+<li class="page_item page-item-58 "><a href="https://woocommerceshop.hu/blog/">Blog</a></li>
+<li class="page_item page-item-10"><a href="https://woocommerceshop.hu/fiokom/">Fiókom</a></li>
+<li class="page_item page-item-8"><a href="https://woocommerceshop.hu/kosar/">Kosár</a></li>
+<li class="page_item page-item-9"><a href="https://woocommerceshop.hu/penztar/">Pénztár</a></li>
+<li class="page_item page-item-2"><a href="https://woocommerceshop.hu/sample-page/">Sample Page</a></li>
+<li class="page_item page-item-7 current_page_item"><a href="https://woocommerceshop.hu/uzlet/">Shop</a></li>
+</ul></div>
+		</nav><!-- #site-navigation -->
+				<ul id="site-header-cart" class="site-header-cart menu">
+			<li class="">
+										<a class="cart-contents" href="https://woocommerceshop.hu/kosar/" title="Kosár megtekintése">
+								<span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>1,000.00</span> <span class="count">1 termék</span>
+			</a>
+		
+					</li>
+			<li>
+				<div class="widget woocommerce widget_shopping_cart"><div class="widget_shopping_cart_content">
+
+	<ul class="woocommerce-mini-cart cart_list product_list_widget ">
+						<li class="woocommerce-mini-cart-item mini_cart_item">
+					<a href="https://woocommerceshop.hu/kosar/?remove_item=c51ce410c124a10e0db5e4b97fc2af39&amp;_wpnonce=a054555527" class="remove remove_from_cart_button" aria-label="fdhgfhj eltávolítása a kosárból" data-product_id="13" data-cart_item_key="c51ce410c124a10e0db5e4b97fc2af39" data-product_sku="" data-success_message="“fdhgfhj” has been removed from your cart">×</a>											<a href="https://woocommerceshop.hu/termek/fdhgfhj/">
+							<img width="243" height="324" src="https://woocommerceshop.hu/wp-content/uploads/2024/10/20241024_082412-scaled.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="fdhgfhj" decoding="async" loading="lazy" srcset="https://woocommerceshop.hu/wp-content/uploads/2024/10/20241024_082412-scaled.jpg 1920w, https://woocommerceshop.hu/wp-content/uploads/2024/10/20241024_082412-scaled-600x800.jpg 600w, https://woocommerceshop.hu/wp-content/uploads/2024/10/20241024_082412-225x300.jpg 225w, https://woocommerceshop.hu/wp-content/uploads/2024/10/20241024_082412-768x1024.jpg 768w, https://woocommerceshop.hu/wp-content/uploads/2024/10/20241024_082412-1152x1536.jpg 1152w, https://woocommerceshop.hu/wp-content/uploads/2024/10/20241024_082412-1536x2048.jpg 1536w" sizes="auto, (max-width: 243px) 100vw, 243px">fdhgfhj						</a>
+															<span class="quantity">1 × <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>1,000.00</bdi></span></span>				</li>
+					</ul>
+
+	<p class="woocommerce-mini-cart__total total">
+		<strong>Részösszeg:</strong> <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>1,000.00</bdi></span>	</p>
+
+	
+	<p class="woocommerce-mini-cart__buttons buttons"><a href="https://woocommerceshop.hu/kosar/" class="button wc-forward">Kosár</a><a href="https://woocommerceshop.hu/penztar/" class="button checkout wc-forward">Pénztár</a></p>
+
+	
+
+</div></div>			</li>
+		</ul>
+			</div></div>
+	</header>
