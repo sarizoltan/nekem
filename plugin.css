@@ -1,0 +1,321 @@
+ body {
+    margin: 0;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.6;
+    overflow-x: hidden;
+    font-family: var(--dt-base-font);
+    color: #110f0f;
+    letter-spacing: .01em;
+    background-color: var(--dt-whi-color);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}   
+    /* Base styles for the WooCommerce Custom Page plugin */
+    
+
+.table{
+   display: block !important;
+   overflow-x: auto !important;
+   width: 100% !important;
+ }
+ .product-thumbnail {
+    width: 60px;
+    height: auto;
+    text-align: center;
+}
+table th, table td {
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: 1px solid #e9e9e9;
+}
+/* Base styles for the WooCommerce Custom Page plugin */
+.product-thumbnail {
+    text-align: center;
+    width: 60px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img.rounded-image.wp-post-image { border-radius: 50%;
+  width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;}
+.table{
+   display: block !important;
+   overflow-x: auto !important;
+   width: 100% !important;
+ }
+table th, table td {
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: 1px solid #e9e9e9;
+}
+.table.table-bordered.table-hover tbody tr td {
+   border-color: #ffffff;
+   border-width: 2px;
+   border-style: solid;
+   vertical-align: middle;
+}
+.selected {
+    
+    background-color: #ffffa0;
+    box-shadow: 0px 0px 10px 5px rgb(255 255 255 / 80%), 0px 0px 20px 10px rgb(255 255 255 / 60%);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    color: #06b10d;
+}
+  .table {
+    display: block;
+    overflow-x: auto;
+    width: 100%;
+}
+table th, table td {
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: 1px solid #e9e9e9;
+}
+.menunev {
+    width: 110px;
+    word-break: keep-all;
+}
+.product-title.custom-title {
+    height: auto; /* Set the desired height */
+    overflow: hidden;
+    word-wrap: initial;
+    word-break: initial;
+}
+.label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em
+}
+
+a.label:focus,a.label:hover {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer
+}
+
+.label:empty {
+    display: none
+}
+
+.btn .label {
+    position: relative;
+    top: -1px
+}
+
+.label-default {
+    background-color: #777
+}
+
+.label-default[href]:focus,.label-default[href]:hover {
+    background-color: #5e5e5e
+}
+
+.label-primary {
+    background-color: #34B5E0
+}
+
+.label-primary[href]:focus,.label-primary[href]:hover {
+    background-color: #286090
+}
+
+.label-success {
+    background-color: #5cb85c
+}
+
+.label-success[href]:focus,.label-success[href]:hover {
+    background-color: #449d44
+}
+
+.label-info {
+    background-color: #5bc0de
+}
+
+.label-info[href]:focus,.label-info[href]:hover {
+    background-color: #31b0d5
+}
+
+.label-warning {
+    background-color: #34b5e0
+}
+
+.label-warning[href]:focus,.label-warning[href]:hover {
+    background-color: #ec971f
+}
+
+.label-danger {
+    background-color: #d9534f
+}
+
+.label-danger[href]:focus,.label-danger[href]:hover {
+    background-color: #c9302c
+}
+
+.badge {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #777;
+    border-radius: 10px
+}
+th, td {
+        width: 12.5%; /* 100% / 7 oszlop */
+        text-align: center;
+        vertical-align: middle;
+        border: 1px solid #ccc;
+    }
+/**mobile**/
+
+@media only screen and (max-width: 767px) {
+  .table-responsive {
+    overflow-x: auto;
+  }
+
+
+
+  table th,
+  table td {
+    min-width: 210px;
+  }
+
+
+}
+  /* Base styles for the WooCommerce Custom Page plugin */
+
+    /*star rating for products*/
+.rating-custom div.product .woocommerce-product-rating {
+    margin-bottom: 1.618em;
+    text-align: center; /* Add this to center the rating */
+}
+
+.rating-custom .woocommerce-product-rating .star-rating {
+    margin: 0 auto; /* Change this to center the star rating */
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+}
+
+.rating-custom .woocommerce-product-rating::after, .rating-custom .woocommerce-product-rating::before {
+    content: ' ';
+    display: table;
+}
+
+.rating-custom .woocommerce-product-rating {
+    line-height: 2;
+}
+
+.rating-custom .star-rating {
+    overflow: hidden;
+    position: relative;
+    height: 1em;
+    line-height: 1;
+    font-size: 1em;
+    width: 5.4em;
+    font-family: star;
+    display: inline-block; /* Add this to center the star rating */
+}
+
+.rating-custom .star-rating::before {
+    content: '\73\73\73\73\73';
+    color: #d3ced2;
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.rating-custom .star-rating {
+    line-height: 1;
+    font-size: 20px;
+    font-family: star;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+}
+
+.rating-custom .star-rating span {
+    overflow: hidden;
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding-top: 1.5em;
+}
+
+.rating-custom .star-rating span::before {
+    content: '\53\53\53\53\53';
+    top: 0;
+    position: inherit;
+    left: 0;
+    color: #FFD700; /* Add this to change the star color to yellow */
+}
+
+.rating-custom .star-rating span {
+    overflow: hidden;
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding-top: 1.5em;
+}
+
+a.woocommerce-review-link {
+    font-size: 13px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    pointer-events: none;
+    display: block; /* Add this to put the text below the star rating */
+}
+
+.custom-star-rating-info {
+    font-size: 12px;
+}
+.woocommerce a.remove {
+    display: inline;
+    font-size: 1.5em;
+    height: 1em;
+    width: 1em;
+    text-align: center;
+    line-height: 1;
+    border-radius: 50%;
+    color: red!important;
+    text-decoration: none;
+    font-weight: 700;
+    border: 0;
+}
+/**mobile**/
+
+.woocommerce-cart-form input[type="number"] {
+    pointer-events: auto !important;
+    z-index: 10 !important;
+}
+.woocommerce-cart-form button[disabled] {
+    pointer-events: auto !important;
+    opacity: 1 !important;
+    cursor: pointer !important;
+}
+
+  /* Base styles for the WooCommerce Custom Page plugin */
